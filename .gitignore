@@ -1,0 +1,50 @@
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore log files
+*.log
+*.out
+
+# Ignore cache directories
+__pycache__/
+.cache/
+
+# Ignore data files
+data/
+*.csv
+*.json
+
+# Ignore configuration files
+config.ini
+config.yml
+#*.env needed for the example
+
+# Ignore database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore compiled C and C++ files
+*.o
+*.obj
+
+# Ignore compiled Java files
+*.class
+
+# Ignore package distribution files
+*.egg-info/
+dist/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
